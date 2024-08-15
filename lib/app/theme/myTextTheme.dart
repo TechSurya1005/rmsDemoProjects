@@ -1,0 +1,134 @@
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+import '../../constant/color.dart';
+
+class MyTextTheme {
+  MyTextTheme._();
+
+  static TextTheme lightTextTheme() => TextTheme(
+        titleLarge: GoogleFonts.fredoka(
+            color: textColor,
+            fontSize: 34,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        titleMedium: GoogleFonts.fredoka(
+            color: textColor,
+            fontSize: 28,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        titleSmall: GoogleFonts.fredoka(
+            color: textColor,
+            fontSize: 22,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        headlineLarge: GoogleFonts.fredoka(
+            color: textColor,
+            fontSize: 28,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        headlineMedium: GoogleFonts.fredoka(
+            color: textColor,
+            fontSize: 22,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        headlineSmall: GoogleFonts.fredoka(
+            color: textColor,
+            fontSize: 18,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        displayLarge: GoogleFonts.fredoka(
+            color: textColor,
+            fontSize: 34,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        displayMedium: GoogleFonts.fredoka(
+            color: textColor,
+            fontSize: 28,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        displaySmall: GoogleFonts.fredoka(
+            color: textColor,
+            fontSize: 22,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        labelLarge: GoogleFonts.fredoka(
+            color: textColor,
+            fontSize: 18,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        labelMedium: GoogleFonts.fredoka(
+            color: textColor,
+            fontSize: 16,
+            fontWeight: FontWeight.w500,
+            letterSpacing: 0),
+        labelSmall: GoogleFonts.fredoka(
+            color: textColor,
+            fontSize: 14,
+            fontWeight: FontWeight.w400,
+            letterSpacing: 0),
+      );
+
+  static TextTheme darkTextTheme() => TextTheme(
+        titleLarge: GoogleFonts.fredoka(
+            color: textDarkColor,
+            fontSize: 34,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        titleMedium: GoogleFonts.fredoka(
+            color: textDarkColor,
+            fontSize: 28,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        titleSmall: GoogleFonts.fredoka(
+            color: textDarkColor,
+            fontSize: 22,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        headlineLarge: GoogleFonts.fredoka(
+            color: textDarkColor,
+            fontSize: 28,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        headlineMedium: GoogleFonts.fredoka(
+            color: textDarkColor,
+            fontSize: 22,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        headlineSmall: GoogleFonts.fredoka(
+            color: textDarkColor,
+            fontSize: 18,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        displayLarge: GoogleFonts.fredoka(
+            color: textDarkColor,
+            fontSize: 34,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        displayMedium: GoogleFonts.fredoka(
+            color: textDarkColor,
+            fontSize: 28,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        displaySmall: GoogleFonts.fredoka(
+            color: textDarkColor,
+            fontSize: 22,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+        labelMedium: GoogleFonts.fredoka(
+            color: textDarkColor,
+            fontSize: 16,
+            fontWeight: FontWeight.w500,
+            letterSpacing: 0),
+        labelSmall: GoogleFonts.fredoka(
+            color: textDarkColor,
+            fontSize: 14,
+            fontWeight: FontWeight.w400,
+            letterSpacing: 0),
+        labelLarge: GoogleFonts.fredoka(
+            color: textDarkColor,
+            fontSize: 18,
+            fontWeight: FontWeight.w600,
+            letterSpacing: 0),
+      );
+}
